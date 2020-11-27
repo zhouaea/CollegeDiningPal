@@ -1,14 +1,10 @@
-# NOTE: Urllib import may be different.
 import urllib.request
-
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.common.exceptions import TimeoutException
 from selenium import webdriver
 from bs4 import BeautifulSoup
-
-
 
 # NOTE: Edit executable path for your specific computer.
 driver = driver = webdriver.Chrome(executable_path='/home/zhouaea/Documents/ChromeDriver/chromedriver')
